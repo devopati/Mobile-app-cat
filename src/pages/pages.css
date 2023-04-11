@@ -1,0 +1,110 @@
+.default-cards{
+    margin-top: 6rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    padding: 3rem;
+}
+
+.d-card{
+    background: rgba(10, 10, 229, 0.268);
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding: 2rem;
+    border-radius: .7rem;
+    border:2px solid #009879;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+#emp-drp{
+    display: flex;
+}
+#table-icon{
+    font-size: 1rem;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+#actions{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+#action-icon{
+    font-size: .9rem;
+    cursor: pointer;
+}
+#emp-circle{
+    display: flex;
+    gap: .8rem;
+}
+#policy{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-emp{
+    background: #009879;
+    color: white;
+    display: flex;
+    gap: .3rem;
+    padding: .5rem;
+    font-size:small;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+}
+.form-cards{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1.6rem;
+}
+.card{
+    background: rgba(10, 10, 229, 0.268);
+    width: 300px;
+    height: 200px;
+    margin-left: 8.5rem;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+#form-icon{
+    font-size: 4rem;
+    cursor: pointer;
+    color: blue;
+}
+
